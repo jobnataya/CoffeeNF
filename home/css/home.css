@@ -28,7 +28,8 @@
 }
 .nav ul li a:hover{
     color: #e3a276;
-    text-transfo    rm: uppercase;
+    background: rgb(250, 248, 248);
+    border-radius: 20%;
 }
 .nav ul{
     display: flex
@@ -66,4 +67,53 @@ form.search button{
 .fa-search{
     cursor: pointer;
     font-size: 17px;
+}
+/* Content Seciton */
+.content{
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+   position: relative;
+}
+.leftside .text{
+    padding-top: 60px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    padding-left: 150px;
+}
+.leftbutton{
+    position: absolute;
+    top: 80%;
+    left: 21%;
+}
+
+.leftbutton ul li a{
+    border: 2px solid gray;
+    background: white;
+    text-transform: uppercase;
+    color: black;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.leftbutton ul li a:hover{
+    background: #e3a276;
+    color: white;
+}
+.rightside .image img{
+    height: 360px;
+    width: 500px;
+}
+.rightside{
+    border-radius: 60%;
+    top: 60px;
+    right: -220px;
+    position: absolute;
+    display: block;
+    position: relative;
+    background: #e3a276;
 }
